@@ -1,0 +1,6 @@
+from django.shortcuts import render
+
+def page(request):
+    return render(request,'static.html')
+
+# Create your views here.
